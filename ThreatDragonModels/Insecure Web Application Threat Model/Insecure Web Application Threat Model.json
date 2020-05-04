@@ -1,6 +1,7 @@
 {
   "summary": {
-    "title": "Insecure Web Application Threat Model"
+    "title": "Insecure Web Application Threat Model",
+    "owner": "Berkay"
   },
   "detail": {
     "contributors": [],
