@@ -555,7 +555,213 @@
       {
         "title": "Trust Boundaries",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 3
+        "id": 3,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 372,
+                "y": 207
+              },
+              "angle": 0,
+              "id": "db4b7ae9-1e74-4142-9203-563f952eeba4",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web\nApplication"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 104,
+                "y": 104
+              },
+              "angle": 0,
+              "id": "7080cdda-9790-4f60-b201-a5bc734dcc51",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Browser"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 580,
+                "y": 311
+              },
+              "angle": 0,
+              "id": "e2e79b4b-4048-475c-976e-077b659b8cfa",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 348,
+                "y": 65
+              },
+              "target": {
+                "x": 175,
+                "y": 259
+              },
+              "vertices": [
+                {
+                  "x": 332,
+                  "y": 200
+                }
+              ],
+              "id": "e224ad00-f304-4eb7-9cdf-e18b2051bf68",
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 730,
+                "y": 210
+              },
+              "target": {
+                "x": 569,
+                "y": 497
+              },
+              "vertices": [
+                {
+                  "x": 524,
+                  "y": 305
+                }
+              ],
+              "id": "c83c0ff1-2ad2-4f9a-b5d7-a4b8b03efb5d",
+              "z": 5,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7080cdda-9790-4f60-b201-a5bc734dcc51"
+              },
+              "target": {
+                "id": "db4b7ae9-1e74-4142-9203-563f952eeba4"
+              },
+              "vertices": [
+                {
+                  "x": 478,
+                  "y": 87
+                }
+              ],
+              "id": "794d65cc-d4ea-4d41-a49c-4df41fc49c93",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "addBookRequest",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "db4b7ae9-1e74-4142-9203-563f952eeba4"
+              },
+              "target": {
+                "id": "e2e79b4b-4048-475c-976e-077b659b8cfa"
+              },
+              "vertices": [
+                {
+                  "x": 638,
+                  "y": 186
+                }
+              ],
+              "id": "c61eb4d0-78e9-4cc5-8692-fd748906c7c4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "addBook",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 805
+        }
       },
       {
         "title": "External Dependencies",
