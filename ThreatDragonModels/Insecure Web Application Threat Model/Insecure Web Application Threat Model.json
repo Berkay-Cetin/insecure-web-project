@@ -902,7 +902,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "addBookRequest",
+                      "text": "userRequest",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -941,7 +941,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "addBook",
+                      "text": "DatabaseFunctions",
                       "font-weight": "400",
                       "font-size": "small"
                     }
