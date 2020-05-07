@@ -588,11 +588,6 @@
         }
       },
       {
-        "title": "Trust Levels",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 2
-      },
-      {
         "title": "Trust Boundaries",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 3,
