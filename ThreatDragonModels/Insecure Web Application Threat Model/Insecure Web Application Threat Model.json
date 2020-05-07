@@ -474,6 +474,10 @@
                 {
                   "x": 566,
                   "y": 57
+                },
+                {
+                  "x": 619,
+                  "y": 90
                 }
               ],
               "id": "a0154363-7925-4548-9ebf-c5bea4b279d6",
@@ -482,7 +486,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "DatabaseFunctions",
+                      "text": "Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -536,6 +540,45 @@
               "id": "bc17c31f-5f10-44bf-8049-1fb48d418f44",
               "z": 8,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c01e0833-0af9-41b5-9c87-26f3f269c3d2"
+              },
+              "target": {
+                "id": "273b2f55-caf3-4509-a66f-5f4c5757ec97"
+              },
+              "vertices": [
+                {
+                  "x": 590,
+                  "y": 288
+                }
+              ],
+              "id": "e98cfa7f-4232-4303-b2a1-688b6f1b641d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
