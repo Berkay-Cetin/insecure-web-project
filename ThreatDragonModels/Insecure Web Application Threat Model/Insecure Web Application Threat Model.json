@@ -778,7 +778,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "DatabaseFunctions",
+                      "text": "Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -786,6 +786,84 @@
                 }
               ],
               "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "e2e79b4b-4048-475c-976e-077b659b8cfa"
+              },
+              "target": {
+                "id": "db4b7ae9-1e74-4142-9203-563f952eeba4"
+              },
+              "vertices": [
+                {
+                  "x": 454,
+                  "y": 410
+                }
+              ],
+              "id": "08d2b6f6-2fab-49e9-8c8e-c2d88d0e7d64",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "db4b7ae9-1e74-4142-9203-563f952eeba4"
+              },
+              "target": {
+                "id": "7080cdda-9790-4f60-b201-a5bc734dcc51"
+              },
+              "vertices": [
+                {
+                  "x": 260,
+                  "y": 291
+                }
+              ],
+              "id": "b5eb137b-957a-4526-8357-badae81f845c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "userReceipt",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
